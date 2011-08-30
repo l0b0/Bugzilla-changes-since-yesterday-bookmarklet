@@ -1,3 +1,8 @@
+/*
+Load a URL containing the date of the previous day
+
+@title Yesterday
+*/
 (function yesterday() {
     var date = new Date();
     date.setDate(date.getDate() - 1);
